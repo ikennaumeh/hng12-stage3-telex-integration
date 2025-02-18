@@ -1,0 +1,12 @@
+[
+  {
+    "ContainingType": "HNGStageThree.API.Controllers.NewsController",
+    "Method": "FetchNews",
+    "RelativePath": "api/News",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  }
+]

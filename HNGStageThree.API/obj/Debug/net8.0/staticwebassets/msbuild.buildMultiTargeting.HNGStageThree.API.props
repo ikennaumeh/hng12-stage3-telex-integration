@@ -1,0 +1,3 @@
+﻿<Project>
+  <Import Project="..\build\HNGStageThree.API.props" />
+</Project>
