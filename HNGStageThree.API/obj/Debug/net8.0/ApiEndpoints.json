@@ -2,7 +2,7 @@
   {
     "ContainingType": "HNGStageThree.API.Controllers.NewsController",
     "Method": "FetchNews",
-    "RelativePath": "api/News",
+    "RelativePath": "api/News/tick",
     "HttpMethod": "POST",
     "IsController": true,
     "Order": 0,

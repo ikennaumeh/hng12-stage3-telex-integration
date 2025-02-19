@@ -14,7 +14,9 @@ namespace HNGStageThree.API.Controllers
         {
             this.newsRepository = newsRepository;
         }
+
         [HttpPost]
+        [Route("tick")]
         public async Task<IActionResult> FetchNews()
         {
             NewsResponse? response = await newsRepository.FetchNews();
