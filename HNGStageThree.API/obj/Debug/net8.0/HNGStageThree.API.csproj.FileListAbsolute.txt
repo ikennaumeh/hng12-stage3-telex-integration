@@ -30,3 +30,4 @@ C:\Users\USER\source\repos\HNGStageThree\HNGStageThree.API\obj\Debug\net8.0\refi
 C:\Users\USER\source\repos\HNGStageThree\HNGStageThree.API\obj\Debug\net8.0\HNGStageThree.API.pdb
 C:\Users\USER\source\repos\HNGStageThree\HNGStageThree.API\obj\Debug\net8.0\HNGStageThree.API.genruntimeconfig.cache
 C:\Users\USER\source\repos\HNGStageThree\HNGStageThree.API\obj\Debug\net8.0\ref\HNGStageThree.API.dll
+C:\Users\USER\source\repos\HNGStageThree\HNGStageThree.API\obj\Debug\net8.0\HNGStageThree.API.sourcelink.json
