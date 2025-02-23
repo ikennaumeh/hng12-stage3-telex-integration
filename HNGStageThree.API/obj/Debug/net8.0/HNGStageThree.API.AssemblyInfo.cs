@@ -15,7 +15,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("HNGStageThree.API")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+0370efc94c67a8f3881158c150a11bdb8167a25b")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+8bf26258d68a11b9f8484a6b0c5b0f4432085569")]
 [assembly: System.Reflection.AssemblyProductAttribute("HNGStageThree.API")]
 [assembly: System.Reflection.AssemblyTitleAttribute("HNGStageThree.API")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

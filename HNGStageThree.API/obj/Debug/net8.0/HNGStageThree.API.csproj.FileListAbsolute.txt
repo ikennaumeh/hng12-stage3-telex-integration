@@ -31,3 +31,5 @@ C:\Users\USER\source\repos\HNGStageThree\HNGStageThree.API\obj\Debug\net8.0\HNGS
 C:\Users\USER\source\repos\HNGStageThree\HNGStageThree.API\obj\Debug\net8.0\HNGStageThree.API.genruntimeconfig.cache
 C:\Users\USER\source\repos\HNGStageThree\HNGStageThree.API\obj\Debug\net8.0\ref\HNGStageThree.API.dll
 C:\Users\USER\source\repos\HNGStageThree\HNGStageThree.API\obj\Debug\net8.0\HNGStageThree.API.sourcelink.json
+C:\Users\USER\source\repos\HNGStageThree\HNGStageThree.API\bin\Debug\net8.0\DotNetEnv.dll
+C:\Users\USER\source\repos\HNGStageThree\HNGStageThree.API\bin\Debug\net8.0\Sprache.dll
