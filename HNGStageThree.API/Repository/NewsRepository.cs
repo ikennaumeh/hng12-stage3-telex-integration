@@ -18,7 +18,7 @@ namespace HNGStageThree.API.Repository
         {
             try
             {
-                string url = $"https://newsapi.org/v2/top-headlines?sources=techcrunch&apiKey={configuration["ApiKey"]}";
+                string url = $"https://newsapi.org/v2/top-headlines?sources=techcrunch&apiKey={configuration["ApiKey:2"]}";
                 HttpResponseMessage response = await httpClient.GetAsync(url);
 
                 string jsonResponse = await response.Content.ReadAsStringAsync();
