@@ -8,12 +8,6 @@ var builder = WebApplication.CreateBuilder(args);
     // Load environment variables from the .env file
     Env.Load();
 
-    // Access the environment variables
-    string apiKey = Environment.GetEnvironmentVariable("API_KEY");
-
-    Console.WriteLine($"Apikey -- {apiKey}");
-
-
     builder.Services.AddCors(options =>
     {
         options.AddPolicy("AllowAll",

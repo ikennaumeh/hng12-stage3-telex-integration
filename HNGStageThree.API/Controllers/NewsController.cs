@@ -20,24 +20,33 @@ namespace HNGStageThree.API.Controllers
         [Route("tick")]
         public async Task<IActionResult> FetchNews()
         {
+            string result;
             NewsResponse? res = await newsRepository.FetchNews();
 
+            // Check if res or its Articles property is null or empty
             if (res?.Articles == null || !res.Articles.Any())
             {
-                return NotFound("No articles found.");
+                result = "No articles found at this time. Check back in an hour";
+                await SendWebhook(result);
+
+                return Ok(result); 
             }
 
-            var firstArticle = res.Articles.First();
-            string result = $"Headline for the hour: {firstArticle.Title}. Link: {firstArticle.Url}";
+            var firstArticle = res.Articles.FirstOrDefault();
+            if (firstArticle == null)
+            {
+                result = "No articles available.";
+            }
+            else
+            {
+                result = $"Headline for the hour: {firstArticle.Title}. Link: {firstArticle.Url}";
+            }
 
-            SendWebhook(result);
-
-
-
+            await SendWebhook(result);
             return Ok(result);
         }
 
-        private async void SendWebhook(string result)
+        private async Task SendWebhook(string result)
         {
             HttpClient client = new HttpClient();
 
@@ -53,6 +62,8 @@ namespace HNGStageThree.API.Controllers
             HttpResponseMessage response = await client.SendAsync(request);
             response.EnsureSuccessStatusCode();
             string responseBody = await response.Content.ReadAsStringAsync();
+
+            Console.WriteLine(responseBody);
         }
 
 

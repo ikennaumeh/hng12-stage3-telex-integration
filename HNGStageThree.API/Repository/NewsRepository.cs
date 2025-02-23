@@ -18,7 +18,6 @@ namespace HNGStageThree.API.Repository
             {
                 // Access the environment variables
                 string apiKey = Environment.GetEnvironmentVariable("API_KEY") ?? "";
-                Console.WriteLine($"Apikey -- {apiKey}");
                 string url = $"https://newsapi.org/v2/top-headlines?sources=techcrunch&apiKey={apiKey}";
                 HttpResponseMessage response = await httpClient.GetAsync(url);
 
