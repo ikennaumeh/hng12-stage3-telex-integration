@@ -34,7 +34,7 @@ Ensure you have the following installed:
 2. **Set up environment variables**
    Create a `.env` file in the root directory and add the following:
    ```env
-   APIKEY=your_newsapi_org_key
+   API_KEY=your_newsapi_org_key
    WEBHOOK_URL=your_telex_webhook_url
    ```
 
